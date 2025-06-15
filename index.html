@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Paradise Hotel Booking</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Paradise Hotel</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Rooms</a>
+      <a href="#">Booking</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Enjoy Luxury & Comfort</h2>
+    <p>Book your stay at our beautiful hotel today!</p>
+    <a href="#booking" class="btn">Book Now</a>
+  </section>
+
+  <section id="booking" class="booking-form">
+    <h2>Hotel Booking Form</h2>
+    <form action="BookingServlet" method="POST">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="c
